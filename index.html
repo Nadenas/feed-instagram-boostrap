@@ -12,32 +12,15 @@
     <!--<link rel="stylesheet" type="text/css" href="styles.css">-->
 </head>
 <body>
-  <div class="container-fluid form-row text-center">
-    <div>      
-      <nav class="navbar navbar-light bg-light row">
-        <a class="navbar-brand col-md-4" href="#">
+  <div class="container-fluid">     
+      <nav class="navbar navbar-light bg-light d-flex bd-highlight mb-3">
+        <a class="navbar-brand mr-auto p-1 bd-highlight ml-5" href="#">
           <i class="icon-instagram"> Instagram</i>    
         </a>
-            
-
-
-        <div class="btn-group col-md-1 col-sm-5 offset-sm-2 offset-md-0">
-          <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action
-          </button>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Separated link</a>
-          </div>
-        </div>
-      </nav>
-    </div>
-            <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
-      Launch static backdrop modal
-    </button>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary p-1 bd-highlight" data-toggle="modal" data-target="#staticBackdrop">
+          Create new post
+        </button>
 
     <!-- Modal -->
     <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -59,15 +42,29 @@
         </div>
       </div>
     </div>
-
-    <div class="btn-group mb-2 mt-2 mx-auto " role="group" aria-label="Basic radio toggle button group">
-      <input type="radio" class="btn-check col-sm" name="btnradio" id="btnradio1" autocomplete="off" checked>
-      <label class="btn btn-outline-success" for="btnradio1"><i class="icon-th"></i> </label>    
-      <input type="radio" class="btn-check col-sm" name="btnradio" id="btnradio3" autocomplete="off">
-      <label class="btn btn-outline-success" for="btnradio3"><i class="icon-check-empty"></i></label>
+        <div class="btn-group p-1 bd-highlight mr-5">
+          <button type="button" class="btn btn-success dropdown-toggle mr-5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-cog"></i> 
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+        </div>
+      </nav>
+     
+    <div>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination d-flex justify-content-center">
+          <li class="page-item justify-content-center"><a class="page-link" href="#"><i class="icon-th"></i></a></li>
+          <li class="page-item justify-content-center"><a class="page-link" href="#"><i class="icon-sign-blank"></i></a></li>
+        </ul>
+      </nav>
     </div>
     <div>
-      <div class="row">
+      <div class="container-fluid m-auto row">
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
           <img
             src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg"
